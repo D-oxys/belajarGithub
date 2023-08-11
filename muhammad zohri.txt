@@ -1,0 +1,5 @@
+def __init__(self, nama, kode_pasien, usia):
+        self.Nama = nama
+        self.Kode_pasien = kode_pasien
+        self.Usia = usia
+        self.next = None
