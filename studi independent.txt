@@ -1,0 +1,15 @@
+CATATAN GITHUB
+- Dengan melakukan git pull, repository lokal akan diperbarui sesuai dengan repository remote saat ini. Sehingga ketika ada kontributor lain yang melakukan perubahan pada repository server, repository lokal ikut diperbarui. Melakukan git pull (menarik) sebelum Anda melakukan git push (mendorong), dapat mengurangi jumlah konflik pada proses penggabungan yang dibuat, serta memungkinkan Anda untuk menyelesaikannya permasalahan secara lokal sebelum mendorong perubahan ke  server.
+
+
+- Git Commit
+Menyimpan hasil perubahan setiap file yang ada di dalam direktori kerja, baik itu file yang baru saja ditambahkan maupun perubahan pada file. Kemudian kita dapat menyisipkan pesan commit agar memudahkan dalam memahami riwayat perubahan. [Baca lebih lengkap tentang perintah Git Commit]
+
+- Git Checkout
+Melakukan perpindahan dari commit satu ke commit yang dituju. Namun hanya bersifat sementara. Git Checkout juga dapat digunakan untuk berpindah dari satu cabang kerja (branch) ke cabang kerja lainnya. 
+
+- Git Reset
+Mengembalikan keadaan suatu commit ke dalam keadaan sebelum terjadi perubahan sesuai dengan commit yang dituju. Namun, git reset akan menghapus beberapa riwayat commit sesudahnya. 
+
+- Git Revert
+Mengembalikan keadaan suatu berkas sebelum terjadi suatu perubahan sesuai dengan tujuan commit yang dituju. Git Revert tidak akan menghilangkan riwayat commit sesudahnya. 
